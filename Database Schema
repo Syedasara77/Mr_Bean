@@ -1,0 +1,9 @@
+create database web_app_bean
+use web_app_bean
+create table login(email varchar(20),password varchar(20));
+insert into login values('bean@gmail.com','bean')
+select *from login;
+
+
+create table register(company varchar(20),model varchar(20),color varchar(20),Dateofpurchase Date not null,price varchar(20),enginecapacity varchar(20),licenseplatenumber varchar(20),seatingcapacity varchar(20));
+select*from register
